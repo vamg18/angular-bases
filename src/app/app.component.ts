@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+//El decorador transforma la clase a un componente
+
 export class AppComponent {
-  title = 'bases';
+  public title: string = 'Hola mundo';
+
 }
